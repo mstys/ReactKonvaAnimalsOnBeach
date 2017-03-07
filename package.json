@@ -1,12 +1,14 @@
 {
   "name": "react-konva-draggable-animals",
-  "version": "1.0",
+  "version": "0.1.0",
   "private": false,
+  "homepage": "https://mstys.github.io/ReactKonvaAnimalsOnBeach/",
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
+    "gh-pages": "^0.12.0",
     "konva": "^1.4.0",
     "node-sass": "^4.5.0",
     "npm-run-all": "^4.0.2",
@@ -19,6 +21,8 @@
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
