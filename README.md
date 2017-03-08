@@ -1,8 +1,10 @@
 #Animals on Beach Game
 
 This project is an example how to use React and KonvaJS. 
-
 This is equicalent to  <a href="https://konvajs.github.io/docs/sandbox/Animals_on_the_Beach_Game.html">Animal on Beach Game</a>
+
+See working example <a href="https://mstys.github.io/ReactKonvaAnimalsOnBeach/">here</a>.
+
 
 Read more about KonvaJS on [KonvaJS](https://konvajs.github.io/) and React-Konva [ReactKonva](https://github.com/lavrton/react-konva) .
 
